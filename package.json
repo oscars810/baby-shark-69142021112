@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-rebalancer",
+  "version": "1.0.0",
+  "description": "Portfolio rebalancing system",
+  "main": "portfolio-rebalancer.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node main.ts",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
